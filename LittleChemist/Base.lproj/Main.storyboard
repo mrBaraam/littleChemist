@@ -1,0 +1,1058 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gGs-NW-nqm">
+    <device id="retina5_5" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--New View Controller-->
+        <scene sceneID="JPx-Qo-JEm">
+            <objects>
+                <viewController id="gGs-NW-nqm" customClass="NewViewController" customModule="Jiang_Hanzi_Helen_LittleChemist" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HgM-A1-HdH">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundMain" translatesAutoresizingMaskIntoConstraints="NO" id="VKW-Cm-5ej">
+                                <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xVr-Cv-cJy">
+                                <rect key="frame" x="453" y="352" width="138" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="32"/>
+                                <state key="normal" title="HELP">
+                                    <color key="titleColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="5jG-bE-6Vb" kind="show" id="eTg-lp-JpI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uj5-Ms-1mf">
+                                <rect key="frame" x="140" y="352" width="152" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="33"/>
+                                <state key="normal" title="START">
+                                    <color key="titleColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BV1-FR-VrT" kind="show" id="C8G-8v-X8k"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="VKW-Cm-5ej" firstAttribute="trailing" secondItem="5eW-cr-F1R" secondAttribute="trailing" id="0bb-ka-IAY"/>
+                            <constraint firstItem="VKW-Cm-5ej" firstAttribute="leading" secondItem="5eW-cr-F1R" secondAttribute="leading" id="LeT-4o-cna"/>
+                            <constraint firstItem="VKW-Cm-5ej" firstAttribute="bottom" secondItem="5eW-cr-F1R" secondAttribute="bottom" id="WqH-8o-xZ7"/>
+                            <constraint firstItem="VKW-Cm-5ej" firstAttribute="top" secondItem="5eW-cr-F1R" secondAttribute="top" id="zVY-MD-V9A"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5eW-cr-F1R"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KKO-oh-5ck" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="76.630434782608702" y="-826.08695652173924"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="zE3-b3-lkq">
+            <objects>
+                <viewController id="e2Y-8h-Ag0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jlU-Mm-eek">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="2190"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundTutorial" translatesAutoresizingMaskIntoConstraints="NO" id="LYc-ml-esm">
+                                <rect key="frame" x="0.0" y="0.0" width="736" height="2190"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rkr-1P-vg0">
+                                <rect key="frame" x="0.0" y="0.0" width="736" height="2190"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Mq-dZ-jXr">
+                                        <rect key="frame" x="0.0" y="0.0" width="736" height="2190"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tips and Help" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="otf-6b-UFE">
+                                                <rect key="frame" x="191" y="73" width="355" height="97"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="50"/>
+                                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Tblank" translatesAutoresizingMaskIntoConstraints="NO" id="cFX-zs-FYj">
+                                                <rect key="frame" x="124" y="242" width="488" height="287"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TdragBeaker" translatesAutoresizingMaskIntoConstraints="NO" id="wb0-Kg-goA">
+                                                <rect key="frame" x="124" y="600" width="488" height="287"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Start the game by scrolling down, and you will be ale to see all the equipments and chemicals you have." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xPY-8X-rHe">
+                                                <rect key="frame" x="84" y="116" width="569" height="145"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="23"/>
+                                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Drag down anything from the shelf." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NWx-eX-72g">
+                                                <rect key="frame" x="86" y="530" width="569" height="68"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="23"/>
+                                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TdragPowder" translatesAutoresizingMaskIntoConstraints="NO" id="xcb-Z1-2CR">
+                                                <rect key="frame" x="126" y="991" width="488" height="287"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You can add anything you want into the beaker. For example, copper [II] sulfate." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AKP-ql-qXb">
+                                                <rect key="frame" x="97" y="902" width="543" height="68"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="23"/>
+                                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Or add some distilled water to make solution." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bFu-UC-pr9">
+                                                <rect key="frame" x="97" y="1756" width="543" height="68"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="23"/>
+                                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Tadding" translatesAutoresizingMaskIntoConstraints="NO" id="xzM-RQ-fHf">
+                                                <rect key="frame" x="126" y="1461" width="488" height="287"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gla-Vz-L2M">
+                                                <rect key="frame" x="86" y="1291" width="573" height="159"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">When you add chemicals/water, a window will pop up. Enter the amount you want to add in. Note that the total amount of each chemical in a beaker cannot exceed the limit, which is 999g or 999mL.</string>
+                                                <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="23"/>
+                                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TaddWater" translatesAutoresizingMaskIntoConstraints="NO" id="3Ql-L6-Owc">
+                                                <rect key="frame" x="126" y="1832" width="488" height="287"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2190" id="8CS-C6-C8g"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="2Mq-dZ-jXr" secondAttribute="bottom" id="6BP-k1-uaJ"/>
+                                    <constraint firstItem="2Mq-dZ-jXr" firstAttribute="top" secondItem="rkr-1P-vg0" secondAttribute="top" id="Rjy-CN-HUX"/>
+                                    <constraint firstAttribute="trailing" secondItem="2Mq-dZ-jXr" secondAttribute="trailing" id="bCS-yl-UIN"/>
+                                    <constraint firstItem="2Mq-dZ-jXr" firstAttribute="leading" secondItem="rkr-1P-vg0" secondAttribute="leading" id="spV-54-hVq"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="rkr-1P-vg0" firstAttribute="trailing" secondItem="tfo-lL-WFE" secondAttribute="trailing" id="0BB-up-7Uh"/>
+                            <constraint firstItem="LYc-ml-esm" firstAttribute="leading" secondItem="tfo-lL-WFE" secondAttribute="leading" id="App-F8-dfB"/>
+                            <constraint firstItem="rkr-1P-vg0" firstAttribute="top" secondItem="jlU-Mm-eek" secondAttribute="top" id="BjK-ph-qC5"/>
+                            <constraint firstItem="LYc-ml-esm" firstAttribute="trailing" secondItem="tfo-lL-WFE" secondAttribute="trailing" id="N0z-mV-4Tt"/>
+                            <constraint firstItem="rkr-1P-vg0" firstAttribute="leading" secondItem="tfo-lL-WFE" secondAttribute="leading" id="dgT-iW-N1v"/>
+                            <constraint firstAttribute="bottom" secondItem="LYc-ml-esm" secondAttribute="bottom" id="lGj-hY-3Kn"/>
+                            <constraint firstAttribute="bottom" secondItem="rkr-1P-vg0" secondAttribute="bottom" id="laI-t2-XhU"/>
+                            <constraint firstItem="LYc-ml-esm" firstAttribute="top" secondItem="jlU-Mm-eek" secondAttribute="top" id="wTe-Fz-oMe"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="tfo-lL-WFE"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="aP9-CA-gfn">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="pEL-RK-7jG">
+                            <connections>
+                                <segue destination="ocs-US-9G6" kind="unwind" unwindAction="unwindFor:" id="Z0s-1l-Tjt"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <size key="freeformSize" width="736" height="2190"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W9a-0M-uA7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="ocs-US-9G6" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="2459" y="-862"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="sCy-MD-RTS">
+            <objects>
+                <viewController id="D1h-mC-Hlq" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="19x-Zd-uPz">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="2390"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundTutorial" translatesAutoresizingMaskIntoConstraints="NO" id="pJj-ER-NbC">
+                                <rect key="frame" x="0.0" y="0.0" width="736" height="2390"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hlw-Bj-046">
+                                <rect key="frame" x="0.0" y="0.0" width="736" height="2341"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZIr-be-7ch">
+                                        <rect key="frame" x="8" y="0.0" width="728" height="2390"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tips and Help" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yXr-hG-uqB">
+                                                <rect key="frame" x="187" y="64" width="355" height="97"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="50"/>
+                                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="utN-A1-agU">
+                                                <rect key="frame" x="74" y="121" width="580" height="145"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">The color of the solution depends on the chemical that it contains. Precipitate will form if you add sodium sulfide and copper(II) sulfate together.</string>
+                                                <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="23"/>
+                                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="raS-lj-h6p">
+                                                <rect key="frame" x="72" y="568" width="584" height="145"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">You can perform multiple experiments at the same time. The balanced chemical reaction equation will be shown at the bottom. You can heat the solution/chemicals up using the Bunsen Burner.</string>
+                                                <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="23"/>
+                                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T9R-FT-dfo">
+                                                <rect key="frame" x="72" y="1015" width="584" height="145"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Copper [II] sulfate will melted when it reaches its melting boiling point. Similarily, it will boil if it reaches its boiling point.</string>
+                                                <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="23"/>
+                                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Tafter" translatesAutoresizingMaskIntoConstraints="NO" id="2an-jv-U8a">
+                                                <rect key="frame" x="120" y="265" width="488" height="287"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Tchange" translatesAutoresizingMaskIntoConstraints="NO" id="B7i-P9-wXN">
+                                                <rect key="frame" x="120" y="727" width="488" height="287"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Tmelted" translatesAutoresizingMaskIntoConstraints="NO" id="04V-ii-hRn">
+                                                <rect key="frame" x="120" y="1157" width="488" height="287"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Test the pH value by dragging the pH paper onto the beaker. Any information/warning will be displayed at the bottom." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="otZ-G0-MOv">
+                                                <rect key="frame" x="90" y="1891" width="548" height="145"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="23"/>
+                                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Tbroken" translatesAutoresizingMaskIntoConstraints="NO" id="aI9-OP-cPq">
+                                                <rect key="frame" x="120" y="1612" width="488" height="287"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ase-iS-67c">
+                                                <rect key="frame" x="90" y="1459" width="548" height="145"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">When using the thermometer, if the temperature exceeds the scale of the thermometer, the thermometer will break, and you will have to restart the game.</string>
+                                                <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="23"/>
+                                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TpH" translatesAutoresizingMaskIntoConstraints="NO" id="6mu-Be-mNA">
+                                                <rect key="frame" x="120" y="2032" width="488" height="287"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2390" id="gqS-Yr-wJ5"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="ZIr-be-7ch" firstAttribute="leading" secondItem="hlw-Bj-046" secondAttribute="leading" id="D6K-Qw-n5m"/>
+                                    <constraint firstAttribute="bottom" secondItem="ZIr-be-7ch" secondAttribute="bottom" id="Jjd-J5-4Xb"/>
+                                    <constraint firstItem="ZIr-be-7ch" firstAttribute="top" secondItem="hlw-Bj-046" secondAttribute="top" id="K06-Kw-T14"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZIr-be-7ch" secondAttribute="trailing" id="fGs-pL-UIv"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="hlw-Bj-046" firstAttribute="trailing" secondItem="Jxf-0D-Krh" secondAttribute="trailing" id="18O-cn-kii"/>
+                            <constraint firstItem="hlw-Bj-046" firstAttribute="bottom" secondItem="Jxf-0D-Krh" secondAttribute="bottom" id="2BC-y7-b1d"/>
+                            <constraint firstItem="pJj-ER-NbC" firstAttribute="top" secondItem="19x-Zd-uPz" secondAttribute="top" id="2pX-a6-Dy3"/>
+                            <constraint firstItem="hlw-Bj-046" firstAttribute="leading" secondItem="Jxf-0D-Krh" secondAttribute="leading" id="3Bq-zr-Hq2"/>
+                            <constraint firstItem="pJj-ER-NbC" firstAttribute="leading" secondItem="Jxf-0D-Krh" secondAttribute="leading" id="4h1-hH-g0w"/>
+                            <constraint firstItem="pJj-ER-NbC" firstAttribute="trailing" secondItem="Jxf-0D-Krh" secondAttribute="trailing" id="UXY-gt-Unl"/>
+                            <constraint firstAttribute="bottom" secondItem="pJj-ER-NbC" secondAttribute="bottom" id="cZr-XC-oBj"/>
+                            <constraint firstItem="hlw-Bj-046" firstAttribute="top" secondItem="19x-Zd-uPz" secondAttribute="top" id="yqe-TQ-Zli"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Jxf-0D-Krh"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ovK-56-d7H">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="3JD-Sa-bOS">
+                            <connections>
+                                <segue destination="OqP-LY-Isk" kind="unwind" unwindAction="unwindFor:" id="CAx-tF-hUA"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <size key="freeformSize" width="736" height="2390"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tki-aY-aPZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="OqP-LY-Isk" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="3054.6195652173915" y="-826.08695652173924"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="812-5e-0BR">
+            <objects>
+                <viewController id="0VL-Ch-CeI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VIo-5I-d0Q">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="2240"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundTutorial" translatesAutoresizingMaskIntoConstraints="NO" id="kAX-Jd-WR5">
+                                <rect key="frame" x="0.0" y="0.0" width="736" height="2240"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WZ0-xv-3fy">
+                                <rect key="frame" x="0.0" y="64" width="736" height="2127"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eC3-nW-3om">
+                                        <rect key="frame" x="0.0" y="0.0" width="736" height="2240"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tips and Help" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3rx-eg-Sux">
+                                                <rect key="frame" x="191" y="8" width="355" height="97"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="50"/>
+                                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Ok-fh-MKg">
+                                                <rect key="frame" x="98" y="80" width="536" height="171"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">You can measure the temperature when the solution is boiling to determine its boiling point. Note that the boiling point and melting point depend on the chemical and the amount contained in the beaker.</string>
+                                                <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="23"/>
+                                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="To check the amount and properties of the chemicals contained in a beaker, drag the magnifying glass onto it." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3MP-cx-LlK">
+                                                <rect key="frame" x="98" y="538" width="536" height="145"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="23"/>
+                                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A window will then pop up, displaying all the information you need." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0h5-dy-o46">
+                                                <rect key="frame" x="102" y="927" width="532" height="145"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="23"/>
+                                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TdragBack" translatesAutoresizingMaskIntoConstraints="NO" id="qhd-hO-q2z">
+                                                <rect key="frame" x="124" y="1437" width="488" height="287"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="If you don't want anything, simply drag it to the top." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZUs-0D-wl7">
+                                                <rect key="frame" x="111" y="1318" width="514" height="145"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="23"/>
+                                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Tglass" translatesAutoresizingMaskIntoConstraints="NO" id="RF9-KQ-LdU">
+                                                <rect key="frame" x="124" y="670" width="488" height="287"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Tinfo" translatesAutoresizingMaskIntoConstraints="NO" id="uuz-wF-Ozj">
+                                                <rect key="frame" x="124" y="1051" width="488" height="287"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="And done! Start your experiments and explore the fun in Chemistry." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dwx-Bm-Z6X">
+                                                <rect key="frame" x="75" y="1705" width="587" height="145"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="23"/>
+                                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Tback" translatesAutoresizingMaskIntoConstraints="NO" id="Q7b-j0-ulv">
+                                                <rect key="frame" x="122" y="1827" width="488" height="287"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Tthermometer" translatesAutoresizingMaskIntoConstraints="NO" id="w9V-nv-6NN">
+                                                <rect key="frame" x="124" y="259" width="488" height="287"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2240" id="pTC-3b-3fj"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="eC3-nW-3om" firstAttribute="leading" secondItem="WZ0-xv-3fy" secondAttribute="leading" id="ROg-Gj-dEP"/>
+                                    <constraint firstAttribute="trailing" secondItem="eC3-nW-3om" secondAttribute="trailing" id="WTj-mt-bij"/>
+                                    <constraint firstAttribute="bottom" secondItem="eC3-nW-3om" secondAttribute="bottom" id="gva-F2-Eml"/>
+                                    <constraint firstItem="eC3-nW-3om" firstAttribute="top" secondItem="WZ0-xv-3fy" secondAttribute="top" id="hzc-2C-LtD"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="WZ0-xv-3fy" firstAttribute="trailing" secondItem="QSD-ig-aLm" secondAttribute="trailing" id="0oa-Jw-pQr"/>
+                            <constraint firstItem="WZ0-xv-3fy" firstAttribute="leading" secondItem="QSD-ig-aLm" secondAttribute="leading" id="6rm-iP-ydm"/>
+                            <constraint firstItem="kAX-Jd-WR5" firstAttribute="top" secondItem="VIo-5I-d0Q" secondAttribute="top" id="Aor-Ft-brX"/>
+                            <constraint firstItem="WZ0-xv-3fy" firstAttribute="top" secondItem="QSD-ig-aLm" secondAttribute="top" id="BFc-Ar-H0r"/>
+                            <constraint firstItem="kAX-Jd-WR5" firstAttribute="leading" secondItem="QSD-ig-aLm" secondAttribute="leading" id="aKi-Vn-GZb"/>
+                            <constraint firstItem="kAX-Jd-WR5" firstAttribute="trailing" secondItem="QSD-ig-aLm" secondAttribute="trailing" id="qbS-dF-sZv"/>
+                            <constraint firstAttribute="bottom" secondItem="kAX-Jd-WR5" secondAttribute="bottom" id="sWJ-xh-mWL"/>
+                            <constraint firstItem="WZ0-xv-3fy" firstAttribute="bottom" secondItem="QSD-ig-aLm" secondAttribute="bottom" id="zGx-C2-rek"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="QSD-ig-aLm"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="PRs-3K-tlU">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="m6i-l0-ylu">
+                            <connections>
+                                <segue destination="skk-vb-cZl" kind="unwind" unwindAction="unwindFor:" id="5EB-QY-jsm"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <size key="freeformSize" width="736" height="2240"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NPR-GQ-fw0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="skk-vb-cZl" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="3698" y="-826"/>
+        </scene>
+        <!--Game View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" id="BV1-FR-VrT" customClass="GameViewController" customModule="Jiang_Hanzi_Helen_LittleChemist" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="3se-qz-xqx" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="w6h-6D-MWr">
+                                <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="board" translatesAutoresizingMaskIntoConstraints="NO" id="z6z-fU-rFO">
+                                <rect key="frame" x="259" y="36" width="225" height="313"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="g" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RDj-AL-IlG">
+                                <rect key="frame" x="407" y="219" width="41" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="LaoSangamMN" family="Lao Sangam MN" pointSize="17"/>
+                                <color key="textColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yi0-Qc-U75">
+                                <rect key="frame" x="374" y="265" width="80" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="16"/>
+                                <state key="normal" title="Cancel">
+                                    <color key="titleColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonCancelClicked:" destination="BV1-FR-VrT" eventType="touchUpInside" id="3wf-ON-f4V"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FRH-hb-DsF">
+                                <rect key="frame" x="327" y="209" width="72" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="Entering:" destination="BV1-FR-VrT" eventType="editingDidBegin" id="FdB-H3-U0O"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please enter a valid number." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aWp-yb-lLK">
+                                <rect key="frame" x="274" y="230" width="191" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="11"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="underline" translatesAutoresizingMaskIntoConstraints="NO" id="e3G-Qi-enn">
+                                <rect key="frame" x="270" y="36" width="200" height="126"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1GT-KO-6fq">
+                                <rect key="frame" x="288" y="265" width="82" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="16"/>
+                                <state key="normal" title="OK">
+                                    <color key="titleColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonSubmitClicked:" destination="BV1-FR-VrT" eventType="touchUpInside" id="cdB-2d-iLq"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chemical" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SUJ-BR-iAg">
+                                <rect key="frame" x="274" y="152" width="191" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Adding" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xHq-UA-hn8">
+                                <rect key="frame" x="274" y="121" width="191" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="16"/>
+                                <color key="textColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Drag down a beaker and start your experiment." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eiK-ha-eqF">
+                                <rect key="frame" x="88" y="364" width="557" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clipboard" translatesAutoresizingMaskIntoConstraints="NO" id="kod-3z-d8U">
+                                <rect key="frame" x="244" y="18" width="249" height="344"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="number" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ogT-az-U1I">
+                                <rect key="frame" x="395" y="176" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="number" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="URg-79-ag9">
+                                <rect key="frame" x="395" y="198" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="number" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="12b-58-5LN">
+                                <rect key="frame" x="395" y="229" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="number" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O7I-Li-cIo">
+                                <rect key="frame" x="355" y="250" width="82" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="number" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cBV-z2-lEx">
+                                <rect key="frame" x="395" y="271" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="°C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PXv-Cy-6Me">
+                                <rect key="frame" x="440" y="229" width="13" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="°C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cgc-H0-Wq0">
+                                <rect key="frame" x="440" y="250" width="13" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="°C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V2Z-IW-mxR">
+                                <rect key="frame" x="440" y="267" width="18" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="g" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iDL-1x-oeJ">
+                                <rect key="frame" x="440" y="155" width="13" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="g" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GHJ-37-Igb">
+                                <rect key="frame" x="440" y="176" width="13" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Water:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZS4-Ge-AVy">
+                                <rect key="frame" x="293" y="198" width="91" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Current Tmpt.:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cFT-rM-Z2G">
+                                <rect key="frame" x="293" y="229" width="79" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Boiling Point:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LWf-C0-fSU">
+                                <rect key="frame" x="293" y="250" width="79" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Melting Point:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4FR-9h-1zd">
+                                <rect key="frame" x="293" y="271" width="79" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Copper(II)sulfate:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j0E-X4-sLV">
+                                <rect key="frame" x="293" y="176" width="110" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sodium sulfide: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Axt-5U-ZZ1">
+                                <rect key="frame" x="293" y="154" width="91" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CONTENTS &amp; PROPERTIES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d5e-fD-gSt">
+                                <rect key="frame" x="304" y="83" width="135" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MeT-M3-6YF">
+                                <rect key="frame" x="338" y="297" width="72" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
+                                <state key="normal" title="Close">
+                                    <color key="titleColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonClose2Clicked:" destination="BV1-FR-VrT" eventType="touchUpInside" id="rKw-or-xWV"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="number" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C0Q-P1-3qb">
+                                <rect key="frame" x="395" y="154" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ml" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="elT-Pd-YRx">
+                                <rect key="frame" x="440" y="198" width="14" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="woodBoard" translatesAutoresizingMaskIntoConstraints="NO" id="zFD-vD-jJx">
+                                <rect key="frame" x="123" y="50" width="481" height="306"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="emptyTT" translatesAutoresizingMaskIntoConstraints="NO" id="qvQ-Gi-kSY">
+                                <rect key="frame" x="195" y="109" width="41" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You have discovered a test tube!" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jW9-bt-bea">
+                                <rect key="frame" x="257" y="95" width="262" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What do you want to add? " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H0F-5O-9SY">
+                                <rect key="frame" x="289" y="193" width="204" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="quT-Pi-dxP">
+                                <rect key="frame" x="288" y="287" width="74" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="OK">
+                                            <attributes>
+                                                <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <font key="NSFont" size="23" name="AmericanTypewriter"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="buttonOkTTClick:" destination="BV1-FR-VrT" eventType="touchUpInside" id="0bT-Rg-a0V"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pys-UZ-cwN">
+                                <rect key="frame" x="402" y="283" width="74" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Cancel">
+                                            <attributes>
+                                                <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <font key="NSFont" size="23" name="AmericanTypewriter"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="buttonCancelTTClick:" destination="BV1-FR-VrT" eventType="touchUpInside" id="dRD-Qu-1N4"/>
+                                </connections>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="zKN-gj-v7y">
+                                <rect key="frame" x="293" y="225" width="191" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="CuSO4"/>
+                                    <segment title="NaS2"/>
+                                    <segment title="H2O"/>
+                                </segments>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cool!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RJk-dE-Y9c">
+                                <rect key="frame" x="274" y="190" width="204" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="SnellRoundhand-Bold" family="Snell Roundhand" pointSize="55"/>
+                                <color key="textColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lPr-RV-LxO">
+                                <rect key="frame" x="20" y="18" width="59" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="back1"/>
+                                <connections>
+                                    <action selector="buttonBackClicked:" destination="BV1-FR-VrT" eventType="touchUpInside" id="I9o-LD-MgX"/>
+                                    <segue destination="94F-3f-Oic" kind="unwind" unwindAction="unwindFor:" id="TWh-O2-eBo"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="warning" translatesAutoresizingMaskIntoConstraints="NO" id="SPk-af-WB5">
+                                <rect key="frame" x="165" y="105" width="397" height="204"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gIU-5X-BqL">
+                                <rect key="frame" x="347" y="251" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
+                                <state key="normal" title="Ok">
+                                    <color key="titleColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="94F-3f-Oic" kind="unwind" unwindAction="unwindFor:" id="n6a-aG-Fsa"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The thermometer is broken! The scale of the thermometer is 250 °C. You have to restart the experiment." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rXC-Zb-WUp">
+                                <rect key="frame" x="253" y="144" width="278" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="woodBoard" translatesAutoresizingMaskIntoConstraints="NO" id="Amp-XU-Qzn">
+                                <rect key="frame" x="123" y="50" width="481" height="312"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bluePowder" translatesAutoresizingMaskIntoConstraints="NO" id="4aP-Ie-Ub6">
+                                <rect key="frame" x="171" y="193" width="106" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Copper (II) Sulfate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xcb-Qz-ofW">
+                                <rect key="frame" x="154" y="242" width="140" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
+                                <color key="textColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bunsen Burner" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LJc-s7-Aix">
+                                <rect key="frame" x="291" y="283" width="114" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
+                                <color key="textColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="pH Paper" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="heY-R3-eQL">
+                                <rect key="frame" x="411" y="242" width="72" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
+                                <color key="textColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Thermometer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xPA-Rk-14l">
+                                <rect key="frame" x="470" y="277" width="105" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
+                                <color key="textColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yellowPowder" translatesAutoresizingMaskIntoConstraints="NO" id="Ogs-cH-gm5">
+                                <rect key="frame" x="440" y="80" width="91" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="water" translatesAutoresizingMaskIntoConstraints="NO" id="AZ8-87-adH">
+                                <rect key="frame" x="342" y="72" width="62" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bunsenBurner" translatesAutoresizingMaskIntoConstraints="NO" id="qOS-FG-x6c">
+                                <rect key="frame" x="306" y="182" width="84" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="thermometer" translatesAutoresizingMaskIntoConstraints="NO" id="Lkd-45-RcW">
+                                <rect key="frame" x="501" y="161" width="53" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="beaker2" translatesAutoresizingMaskIntoConstraints="NO" id="QRg-fu-HFl">
+                                <rect key="frame" x="206" y="72" width="79" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="phPaper" translatesAutoresizingMaskIntoConstraints="NO" id="fys-uo-vTi">
+                                <rect key="frame" x="407" y="161" width="86" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o12-w6-kJa">
+                                <rect key="frame" x="315" y="306" width="107" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="30"/>
+                                <state key="normal" title="Got It"/>
+                                <connections>
+                                    <action selector="infoButtonClick:" destination="BV1-FR-VrT" eventType="touchUpInside" id="lTs-gQ-aRW"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Beaker" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aBJ-gG-p0V">
+                                <rect key="frame" x="219" y="152" width="53" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
+                                <color key="textColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sodium Sulfide" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4gi-1V-QlI">
+                                <rect key="frame" x="427" y="121" width="116" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
+                                <color key="textColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Distilled Water" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MH6-Th-UwN">
+                                <rect key="frame" x="308" y="156" width="130" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="17"/>
+                                <color key="textColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dYo-rP-HrC">
+                                <rect key="frame" x="685" y="16" width="40" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="question"/>
+                                <connections>
+                                    <action selector="buttonQuestionClick:" destination="BV1-FR-VrT" eventType="touchUpInside" id="M3N-Ad-erL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="w6h-6D-MWr" firstAttribute="bottom" secondItem="4qk-I5-YsI" secondAttribute="bottom" id="3cL-4w-wk0"/>
+                            <constraint firstItem="w6h-6D-MWr" firstAttribute="trailing" secondItem="4qk-I5-YsI" secondAttribute="trailing" id="Eky-L2-Cnx"/>
+                            <constraint firstItem="w6h-6D-MWr" firstAttribute="top" secondItem="4qk-I5-YsI" secondAttribute="top" id="lNV-yI-AOw"/>
+                            <constraint firstItem="w6h-6D-MWr" firstAttribute="leading" secondItem="3se-qz-xqx" secondAttribute="leading" id="vbl-jm-upD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4qk-I5-YsI"/>
+                    </view>
+                    <connections>
+                        <outlet property="blue2" destination="j0E-X4-sLV" id="fS3-6F-yko"/>
+                        <outlet property="blueG2" destination="GHJ-37-Igb" id="0yn-Cw-2vG"/>
+                        <outlet property="blueNumber2" destination="ogT-az-U1I" id="4qW-1E-QBT"/>
+                        <outlet property="blurEffect" destination="w6h-6D-MWr" id="aIm-Xw-1cv"/>
+                        <outlet property="board2" destination="kod-3z-d8U" id="8m0-gB-16G"/>
+                        <outlet property="boardTT" destination="zFD-vD-jJx" id="2KC-yE-Y0o"/>
+                        <outlet property="boilingPoint2" destination="LWf-C0-fSU" id="SZz-yJ-eKk"/>
+                        <outlet property="boilingPointC2" destination="cgc-H0-Wq0" id="Tzj-gs-sr9"/>
+                        <outlet property="boilingPointNumber2" destination="O7I-Li-cIo" id="ONH-VO-sWJ"/>
+                        <outlet property="buttonBack" destination="lPr-RV-LxO" id="SU4-Sp-gHQ"/>
+                        <outlet property="buttonCancel" destination="Yi0-Qc-U75" id="OZq-bs-LnP"/>
+                        <outlet property="buttonCancelTT" destination="Pys-UZ-cwN" id="PFZ-a6-iC0"/>
+                        <outlet property="buttonClose2" destination="MeT-M3-6YF" id="krw-E2-jbt"/>
+                        <outlet property="buttonOkTT" destination="quT-Pi-dxP" id="Iac-dE-5HQ"/>
+                        <outlet property="buttonQuestion" destination="dYo-rP-HrC" id="vOq-zu-eGy"/>
+                        <outlet property="buttonSubmit" destination="1GT-KO-6fq" id="EA5-fd-OXB"/>
+                        <outlet property="coolTT" destination="RJk-dE-Y9c" id="L2g-kS-U7K"/>
+                        <outlet property="infoBeaker" destination="QRg-fu-HFl" id="Ha3-uU-ro5"/>
+                        <outlet property="infoBeakerText" destination="aBJ-gG-p0V" id="yxh-Jc-lvx"/>
+                        <outlet property="infoBlue" destination="4aP-Ie-Ub6" id="XCQ-dy-lrd"/>
+                        <outlet property="infoBlueText" destination="xcb-Qz-ofW" id="ShG-Cs-Y7U"/>
+                        <outlet property="infoBoard" destination="Amp-XU-Qzn" id="SIw-fG-HAS"/>
+                        <outlet property="infoBurner" destination="qOS-FG-x6c" id="dCA-ne-Rte"/>
+                        <outlet property="infoBurnerText" destination="LJc-s7-Aix" id="Get-95-l5A"/>
+                        <outlet property="infoButton" destination="o12-w6-kJa" id="TaE-yD-ssb"/>
+                        <outlet property="infoPh" destination="fys-uo-vTi" id="V4o-jL-ev0"/>
+                        <outlet property="infoPhText" destination="heY-R3-eQL" id="gkW-Rl-L7e"/>
+                        <outlet property="infoThermo" destination="Lkd-45-RcW" id="lzb-XV-pk3"/>
+                        <outlet property="infoThermoText" destination="xPA-Rk-14l" id="g2t-fq-O2F"/>
+                        <outlet property="infoWater" destination="AZ8-87-adH" id="TCg-mx-e0f"/>
+                        <outlet property="infoWaterText" destination="MH6-Th-UwN" id="now-aE-GB8"/>
+                        <outlet property="infoYellow" destination="Ogs-cH-gm5" id="6gj-MG-3RE"/>
+                        <outlet property="infoYellowText" destination="4gi-1V-QlI" id="mdi-in-Viv"/>
+                        <outlet property="labelAdding" destination="xHq-UA-hn8" id="TOd-0Q-u8B"/>
+                        <outlet property="labelAddingChemical" destination="SUJ-BR-iAg" id="EIy-Tc-eqe"/>
+                        <outlet property="labelBoard" destination="z6z-fU-rFO" id="UFa-65-ql2"/>
+                        <outlet property="labelG" destination="RDj-AL-IlG" id="HwR-OU-nhJ"/>
+                        <outlet property="labelLine" destination="e3G-Qi-enn" id="9dx-DW-yFU"/>
+                        <outlet property="labelTip" destination="eiK-ha-eqF" id="idN-r4-YMr"/>
+                        <outlet property="labelWarning" destination="aWp-yb-lLK" id="fSF-kj-iLW"/>
+                        <outlet property="meltingPoint2" destination="4FR-9h-1zd" id="l8c-5p-HBg"/>
+                        <outlet property="meltingPointC2" destination="V2Z-IW-mxR" id="nIZ-8B-qJo"/>
+                        <outlet property="meltingPointNumber2" destination="cBV-z2-lEx" id="JLy-Hk-fK2"/>
+                        <outlet property="segmentTT" destination="zKN-gj-v7y" id="zFC-ZU-HVT"/>
+                        <outlet property="temperature2" destination="cFT-rM-Z2G" id="odO-zk-suF"/>
+                        <outlet property="temperatureC2" destination="PXv-Cy-6Me" id="bFs-6V-san"/>
+                        <outlet property="temperatureNumber2" destination="12b-58-5LN" id="RZj-lk-jhP"/>
+                        <outlet property="testTubeTT" destination="qvQ-Gi-kSY" id="kBM-2t-omt"/>
+                        <outlet property="textAmount" destination="FRH-hb-DsF" id="apL-h5-hqo"/>
+                        <outlet property="textTT" destination="H0F-5O-9SY" id="UG5-sA-0pg"/>
+                        <outlet property="title2" destination="d5e-fD-gSt" id="ktr-HA-t7d"/>
+                        <outlet property="titleTT" destination="jW9-bt-bea" id="0RV-Ga-T9A"/>
+                        <outlet property="warningBoard" destination="SPk-af-WB5" id="xob-6o-bCY"/>
+                        <outlet property="warningOk" destination="gIU-5X-BqL" id="4VJ-7S-biX"/>
+                        <outlet property="warningText" destination="rXC-Zb-WUp" id="zzd-8P-YnL"/>
+                        <outlet property="water2" destination="ZS4-Ge-AVy" id="HRv-sA-QZJ"/>
+                        <outlet property="waterMl2" destination="elT-Pd-YRx" id="iHb-D8-awA"/>
+                        <outlet property="waterNumber2" destination="URg-79-ag9" id="K91-oV-B7Z"/>
+                        <outlet property="yellow2" destination="Axt-5U-ZZ1" id="Luh-Gb-xw9"/>
+                        <outlet property="yellowG2" destination="iDL-1x-oeJ" id="kWf-Wm-THH"/>
+                        <outlet property="yellowNumber2" destination="C0Q-P1-3qb" id="9aJ-Ok-lJK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+                <exit id="94F-3f-Oic" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="880.43478260869574" y="-1675.3623188405797"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="tSH-x7-iut">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="5jG-bE-6Vb" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="yVV-Tz-FLf">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="hUW-tf-2bB" kind="relationship" relationship="viewControllers" id="sTa-I1-5HY"/>
+                        <segue destination="e6X-VR-LvP" kind="relationship" relationship="viewControllers" id="ydN-nG-Lfz"/>
+                        <segue destination="Iw7-4A-Kvc" kind="relationship" relationship="viewControllers" id="VeN-Kg-PBJ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2lT-RS-bJe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="814" y="-826"/>
+        </scene>
+        <!--Learn-->
+        <scene sceneID="7oD-Z4-YQh">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hUW-tf-2bB" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Learn" image="icon1" id="ebN-IU-tF8"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="MZs-oi-cVX">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="e2Y-8h-Ag0" kind="relationship" relationship="rootViewController" id="0WR-tG-rWf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ANA-QF-YGq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1604.3478260869567" y="-826.08695652173924"/>
+        </scene>
+        <!--Fun-->
+        <scene sceneID="c0g-1m-rad">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="e6X-VR-LvP" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Fun" image="icon3" id="cIW-H9-Ips"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="lmS-Ym-qYg">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="D1h-mC-Hlq" kind="relationship" relationship="rootViewController" id="yge-Bg-Tzk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LZl-fV-cAr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1594.5652173913045" y="0.0"/>
+        </scene>
+        <!--Explore-->
+        <scene sceneID="gZc-47-hco">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Iw7-4A-Kvc" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Explore" image="icon2" id="COs-Ty-Tmf"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="IJd-le-JhN">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="0VL-Ch-CeI" kind="relationship" relationship="rootViewController" id="ERC-AU-GuE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Td2-Gi-jF3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1343" y="770"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="TaddWater" width="2208" height="1242"/>
+        <image name="Tadding" width="2208" height="1242"/>
+        <image name="Tafter" width="2208" height="1242"/>
+        <image name="Tback" width="2208" height="1242"/>
+        <image name="Tblank" width="2208" height="1242"/>
+        <image name="Tbroken" width="2208" height="1242"/>
+        <image name="Tchange" width="2208" height="1242"/>
+        <image name="TdragBack" width="2208" height="1242"/>
+        <image name="TdragBeaker" width="2208" height="1242"/>
+        <image name="TdragPowder" width="2208" height="1242"/>
+        <image name="Tglass" width="2208" height="1242"/>
+        <image name="Tinfo" width="2208" height="1242"/>
+        <image name="Tmelted" width="2208" height="1242"/>
+        <image name="TpH" width="2208" height="1242"/>
+        <image name="Tthermometer" width="2208" height="1242"/>
+        <image name="back1" width="420" height="420"/>
+        <image name="backgroundMain" width="1280" height="720"/>
+        <image name="backgroundTutorial" width="612" height="408"/>
+        <image name="beaker2" width="698" height="950"/>
+        <image name="bluePowder" width="1932" height="798"/>
+        <image name="board" width="491" height="720"/>
+        <image name="bunsenBurner" width="243.83999633789062" height="345.60000610351562"/>
+        <image name="clipboard" width="512" height="685"/>
+        <image name="emptyTT" width="240" height="948.79998779296875"/>
+        <image name="icon1" width="35" height="35"/>
+        <image name="icon2" width="35" height="35"/>
+        <image name="icon3" width="35" height="35"/>
+        <image name="phPaper" width="128" height="128"/>
+        <image name="question" width="2000" height="2592"/>
+        <image name="thermometer" width="48.720001220703125" height="84.480003356933594"/>
+        <image name="underline" width="370" height="370"/>
+        <image name="warning" width="502.39999389648438" height="251.19999694824219"/>
+        <image name="water" width="1377" height="1662"/>
+        <image name="woodBoard" width="640" height="380"/>
+        <image name="yellowPowder" width="306" height="127.19999694824219"/>
+    </resources>
+</document>
